@@ -1,42 +1,87 @@
 # ExamEdge
-This repo contains exam edge project desgin using react+springboot+mysql
 
-Features:
-    Paypal Payment Integration
-    JWT Authentication
-    Role based Authorization
-    Dynammic Quizzes
-    Leaderboard
-    Discussion Section
-    Profile Page
-    Payment page
-    Signin& Forgot Password with Mail based OTP 
+ExamEdge is a project designed using **React**, **Spring Boot**, and **MySQL**. It provides a comprehensive platform for dynamic quizzes, user management, and payment integration.
 
+---
 
----ADMIN SIDE---
-    Managing Quizzes (CRUD)
-    Manage Payments
-    Sending Notifications
+## Features
 
-Following are Some of Snaps for your reference:
+### User Side:
+- **PayPal Payment Integration**
+- **JWT Authentication**
+- **Role-Based Authorization**
+- **Dynamic Quizzes**
+- **Leaderboard**
+- **Discussion Section**
+- **Profile Page**
+- **Payment Page**
+- **Sign-In & Forgot Password** with Mail-Based OTP
 
-# Home Page
-![alt text](screenshots/image.png)
-![alt text](screenshots/image-1.png)
-![alt text](screenshots/image-2.png)
-![alt text](screenshots/image-3.png)
-![alt text](screenshots/image-4.png)
-![alt text](screenshots/image-5.png)
-![alt text](screenshots/image-6.png)
-![alt text](screenshots/image-7.png)
-![alt text](screenshots/image-8.png)
-![alt text](screenshots/image-9.png)
+### Admin Side:
+- **Manage Quizzes (CRUD Operations)**
+- **Manage Payments**
+- **Send Notifications**
 
------
+---
 
-# Admin Side
-![alt text](screenshots/image-10.png)
-![alt text](screenshots/image-11.png)
-![alt text](screenshots/image-12.png)
-![alt text](screenshots/image-13.png)
-![alt text](screenshots/image-14.png)
+## Screenshots
+
+### Home Page
+![Home Page](screenshots/image.png)
+![Home Page](screenshots/image-1.png)
+![Home Page](screenshots/image-2.png)
+![Home Page](screenshots/image-3.png)
+![Home Page](screenshots/image-4.png)
+![Home Page](screenshots/image-5.png)
+![Home Page](screenshots/image-6.png)
+![Home Page](screenshots/image-7.png)
+![Home Page](screenshots/image-8.png)
+![Home Page](screenshots/image-9.png)
+
+### Admin Side
+![Admin Page](screenshots/image-10.png)
+![Admin Page](screenshots/image-11.png)
+![Admin Page](screenshots/image-12.png)
+![Admin Page](screenshots/image-13.png)
+![Admin Page](screenshots/image-14.png)
+
+---
+
+## How to Run the Project
+
+1. **Backend Setup**:
+   - Install Java and Spring Boot.
+   - Set up a MySQL database and configure the connection in the Spring Boot application.
+   - Run the Spring Boot application.
+
+2. **Frontend Setup**:
+   - Install Node.js and npm.
+   - Navigate to the React project directory and run:
+     ```bash
+     npm install
+     npm start
+     ```
+
+3. **Access the Application**:
+   - Open your browser and navigate to `http://localhost:3000` for the frontend.
+   - The backend API will run on `http://localhost:8080`.
+
+---
+
+## Technologies Used
+
+- **Frontend**: React.js
+- **Backend**: Spring Boot
+- **Database**: MySQL
+- **Payment Gateway**: PayPal
+- **Authentication**: JWT (JSON Web Token)
+
+---
+
+## Contribution Guidelines
+
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix:
+   ```bash
+   git checkout -b feature-name
+   ```
