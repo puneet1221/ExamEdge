@@ -1,0 +1,20 @@
+.admin-home-layout {
+    display: flex;
+    min-height:100vh; /* Ensures the layout takes full screen height */
+    margin-bottom: 10px;
+    min-width: 100vw;
+}
+  
+  .sidebar-container {
+    width: 20rem; /* Fixed width for the sidebar */
+    flex-shrink: 0;
+    background-color: #000000; /* Example background */
+    color: white;
+    height: max-content;
+  }
+  
+  .content-container {
+    width: 100vw;
+    height: 100vh;
+    background-color: black;
+  }

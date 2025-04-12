@@ -1,0 +1,53 @@
+
+.quiz-cards-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .quiz-card {
+    width: 250px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .quiz-title {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .quiz-duration,
+  .quiz-description,
+  .quiz-questions,
+  .quiz-marks {
+    font-size: 14px;
+    margin-top: 8px;
+  }
+
+
+  
+  .disabled-button {
+    background-color: #f44336;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  /* Fade-in and zoom-in animation */
+@keyframes welcomeAnimation {
+  0% {
+    opacity: 0;
+    transform: scale(0.8);
+  }
+  100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+}
+
+/* Apply the animation to the welcome text */
+.animate-welcome {
+  animation: welcomeAnimation 1.5s ease-out forwards;
+}

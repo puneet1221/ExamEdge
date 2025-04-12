@@ -1,0 +1,26 @@
+package com.examedge.service;
+
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mail.SimpleMailMessage;
+import org.springframework.mail.javamail.JavaMailSender;
+import org.springframework.stereotype.Service;
+
+import com.examedge.dto.MailBody;
+
+@Service
+public class EmailService {
+
+	@Autowired
+	private JavaMailSender javaMailSender;
+
+	public void sendSimpleMessage(MailBody body) {
+
+		SimpleMailMessage mailMessage = new SimpleMailMessage();
+		mailMessage.setTo(body.to());
+		mailMessage.setFrom("Yamraj@gmail.com");
+		mailMessage.setText(body.text());
+		mailMessage.setSubject(body.subject());
+		javaMailSender.send(mailMessage);
+	}
+
+}

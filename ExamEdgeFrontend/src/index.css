@@ -1,0 +1,16 @@
+/* Hide scrollbar in webkit browsers (Chrome, Safari, Edge) */
+.scrollable-categories {
+    overflow-x: auto; /* Allow horizontal scrolling */
+    -ms-overflow-style: none;  /* Disable scrollbar for IE and Edge */
+    scrollbar-width: none;  /* Disable scrollbar for Firefox */
+}
+
+.scrollable-categories::-webkit-scrollbar {
+    display: none; /* Hide the scrollbar */
+}
+.scrollable-categories {
+    overflow-x: auto;
+    white-space: nowrap;
+    padding: 0 16px;
+}
+
